@@ -11,9 +11,6 @@ verifiedVersion: 1.0.0
 
 # Request retry policy
 
-The product retries a transient upstream request up to **7 times** before it
-returns the final error to the caller.
-
-Retries use the same bounded policy for every transient upstream failure.
-
-Set `DEFAULT_RETRY_LIMIT` in the product configuration to change this limit.
+The product retries a transient upstream request up to **7 times** before it returns the final error to the caller, using a retry backoff multiplier of 2.
+<!-- thally-cite:v1:33a3c091439539370cc9e4c043c2a1ecf2e25917a3e5864dfd64f8e927814a7e -->
+<!-- thally-cite:v1:19702b18cbe6559267c34fb5e5d7100bfa85ccee6863a41f6dd5dc6d5ad1d021 -->
