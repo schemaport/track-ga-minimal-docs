@@ -122,6 +122,7 @@
           "group": "Guides",
           "pages": [
             "guides/ci",
+            "guides/retry-policy",
             "guides/typescript",
             "guides/existing-project",
             "guides/migrate-providers"

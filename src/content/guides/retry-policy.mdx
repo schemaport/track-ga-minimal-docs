@@ -1,0 +1,17 @@
+---
+title: Request retry policy
+description: Configure how the product retries transient upstream failures.
+keywords:
+  - retries
+  - reliability
+  - configuration
+lastVerified: 2026-08-29
+verifiedVersion: 1.0.0
+---
+
+# Request retry policy
+
+The product retries a transient upstream request up to **3 times** before it
+returns the final error to the caller.
+
+Set `DEFAULT_RETRY_LIMIT` in the product configuration to change this limit.

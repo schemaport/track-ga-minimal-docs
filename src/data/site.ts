@@ -160,10 +160,10 @@ const brandPresets: Record<BrandPresetKey, BrandConfig> = {
 const brandPreset: BrandPresetKey = 'primary'
 
 export const siteConfig: SiteConfig = {
-  name: 'SchemaPort',
+  name: 'Track Global Acceptance',
   description:
     'Define an AI tool schema once, then safely use it across OpenAI, Anthropic, Gemini and MCP. A local-first CLI that checks compatibility, compiles provider-safe schemas, probes real APIs and detects breaking changes.',
-  repoUrl: 'https://github.com/schemaport',
+  repoUrl: 'https://github.com/schemaport/track-ga-docs-test',
   links: [
     { label: 'Quickstart', href: '/quickstart' },
     { label: 'Providers', href: '/providers/compatibility-matrix' },
