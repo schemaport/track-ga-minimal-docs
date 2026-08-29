@@ -1,175 +1,17 @@
 {
   "theme": "default",
-  "appearance": {
-    "contentIcons": "accent"
-  },
   "markdown": {
     "enabled": true
   },
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      {
-        "code": "en",
-        "label": "English"
-      }
-    ]
-  },
-  "navbar": {
-    "primary": {
-      "label": "Get started",
-      "href": "/quickstart"
-    },
-    "links": [
-      {
-        "label": "GitHub",
-        "href": "https://github.com/schemaport"
-      }
-    ]
-  },
-  "footer": {
-    "groups": [
-      {
-        "group": "Start here",
-        "links": [
-          {
-            "label": "Quickstart",
-            "href": "/quickstart"
-          },
-          {
-            "label": "Commands",
-            "href": "/commands/check"
-          },
-          {
-            "label": "Compatibility matrix",
-            "href": "/providers/compatibility-matrix"
-          }
-        ]
-      },
-      {
-        "group": "Repositories",
-        "links": [
-          {
-            "label": "core",
-            "href": "https://github.com/schemaport/core"
-          },
-          {
-            "label": "cli",
-            "href": "https://github.com/schemaport/cli"
-          },
-          {
-            "label": "provider-openai",
-            "href": "https://github.com/schemaport/provider-openai"
-          },
-          {
-            "label": "provider-anthropic",
-            "href": "https://github.com/schemaport/provider-anthropic"
-          },
-          {
-            "label": "provider-gemini",
-            "href": "https://github.com/schemaport/provider-gemini"
-          },
-          {
-            "label": "provider-mcp",
-            "href": "https://github.com/schemaport/provider-mcp"
-          }
-        ]
-      }
-    ]
-  },
   "tabs": [
-    {
-      "tab": "Get started",
-      "groups": [
-        {
-          "group": "Overview",
-          "pages": [
-            "introduction",
-            "portability-problem",
-            "installation",
-            "quickstart"
-          ]
-        },
-        {
-          "group": "Core concepts",
-          "pages": [
-            "concepts/canonical-schemas",
-            "concepts/compatibility",
-            "concepts/safe-and-lossy-compilation",
-            "concepts/breaking-changes"
-          ]
-        }
-      ]
-    },
-    {
-      "tab": "Commands",
-      "groups": [
-        {
-          "group": "Commands",
-          "pages": [
-            "commands/check",
-            "commands/compile",
-            "commands/probe",
-            "commands/diff"
-          ]
-        }
-      ]
-    },
     {
       "tab": "Guides",
       "groups": [
         {
-          "group": "Guides",
-          "pages": [
-            "guides/ci",
-            "guides/retry-policy",
-            "guides/typescript",
-            "guides/existing-project",
-            "guides/migrate-providers"
-          ]
+          "group": "Reliability",
+          "pages": ["guides/retry-policy"]
         }
       ]
-    },
-    {
-      "tab": "Providers",
-      "groups": [
-        {
-          "group": "Providers",
-          "pages": [
-            "providers/compatibility-matrix",
-            "providers/openai",
-            "providers/anthropic",
-            "providers/gemini",
-            "providers/mcp"
-          ]
-        }
-      ]
-    },
-    {
-      "tab": "Reference",
-      "groups": [
-        {
-          "group": "Reference",
-          "pages": [
-            "reference/tool-format",
-            "reference/configuration",
-            "reference/diagnostics",
-            "reference/exit-codes",
-            "reference/manifest"
-          ]
-        },
-        {
-          "group": "TypeScript library",
-          "pages": [
-            "api/overview",
-            "api/provider-contract"
-          ]
-        }
-      ]
-    },
-    {
-      "tab": "Changelog",
-      "href": "/changelog"
     }
   ],
   "ai": {
