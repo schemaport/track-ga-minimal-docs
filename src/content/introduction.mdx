@@ -11,8 +11,11 @@ verifiedVersion: 1.0.0
 
 # Request retry policy
 
-The product retries a transient upstream request up to **7 times** before it
-returns the final error to the caller.
+The product retries a transient upstream request up to **9 times** before it returns the final error to the caller.
+<!-- thally-cite:v1:51b5ae8da893d9423e29f70877e626e88f4bad5357647393bb4705fb137c0ac0 -->
+<!-- thally-cite:v1:327a955932295b34078a0fba21a324d193384e34bcf3b3ed8c98e29fa7dbd60d -->
+<!-- thally-cite:v1:118e0c490082847dcb135f68338d0a94aed5c992aa9b9dab38af1dd5b62bbd2f -->
+<!-- thally-cite:v1:853b2ed9a9f44896ad7e8d68ca9b5e5763ae6c66aeb33b906c779ea83df6bb09 -->
 
 Retries use the same bounded policy for every transient upstream failure.
 
