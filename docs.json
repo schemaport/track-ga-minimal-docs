@@ -9,7 +9,7 @@
       "groups": [
         {
           "group": "Reliability",
-          "pages": ["guides/retry-policy"]
+          "pages": ["introduction"]
         }
       ]
     }
