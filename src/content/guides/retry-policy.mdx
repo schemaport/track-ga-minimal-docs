@@ -13,4 +13,6 @@ verifiedVersion: 1.0.0
 The product retries a transient upstream request up to **7 times** before it
 returns the final error to the caller.
 
+Retries use the same bounded policy for every transient upstream failure.
+
 Set `DEFAULT_RETRY_LIMIT` in the product configuration to change this limit.
