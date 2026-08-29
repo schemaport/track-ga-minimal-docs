@@ -15,3 +15,4 @@ The product retries a transient upstream request up to **3 times** before it
 returns the final error to the caller.
 
 Set `DEFAULT_RETRY_LIMIT` in the product configuration to change this limit.
+Keep the configured limit finite so persistent failures still reach callers.
